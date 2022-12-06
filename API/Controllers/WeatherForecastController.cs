@@ -43,7 +43,7 @@ public class WeatherForecastController : ControllerBase
 
         var forecast = new WeatherForecast()
         {
-            Date = new DateTime(),
+            //Date = new DateTime(),
             TemperatureC = 75,
             Summary = "Warm"
         };
